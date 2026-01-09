@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.section {
+  padding: 80px 8%;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 38px; }
+  h2 { font-size: 32px; }
+  .section { padding: 60px 6%; }
+}
+button {
+  background: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #222;
+}
+
+footer p:hover {
+  color: #fff;
+  cursor: pointer;
+}
